@@ -6,8 +6,28 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        wine: '#6C1A2F',
+        brown: {
+          50: '#eeeae9',
+          100: '#e3dedd',
+          200: '#c8bfbd',
+          300: '#ad9f9d',
+          400: '#927f7d',
+          500: '#76615f',
+          600: '#5e4d4b',
+          700: '#4a3d3b',
+          800: '#3f3331',
+          900: '#3a2a29',
+          950: '#231c1b',
+        },
+        rose: '#E6B7C8',
+        cream: '#F7F1E8',
+        grey: '#EAE8E4',
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         geist: ['Geist', 'system-ui', 'sans-serif'],
         'geist-mono': ['Geist Mono', 'monospace'],
         mona: ['Mona Sans', 'system-ui', 'sans-serif'],
